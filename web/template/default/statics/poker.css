@@ -1,0 +1,90 @@
+.poker-list {
+}
+
+.card-item {}
+
+
+.clear {
+    clear: both;
+}
+
+.poker {
+    position: absolute;
+    background-image: url('./card.png');
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    width: 118px;
+    height: 160px;
+    transform-origin: 0 0 0;
+    transition: left .2s ease-out, top .2s ease-out;
+}
+
+
+
+/* 黑桃 */
+.spade-2 {background-position: -710px -163px;}
+.spade-3 {background-position: -592px -163px;}
+.spade-4 {background-position: -474px -163px;}
+.spade-5 {background-position: -356px -163px;}
+.spade-6 {background-position: -238px -163px;}
+.spade-7 {background-position: -120px -163px;}
+.spade-8 {background-position: -2px -163px;}
+.spade-9 {background-position: -1418px -2px;}
+.spade-10 {background-position: -1300px -2px;}
+.spade-J {background-position: -1064px -2px;}
+.spade-Q {background-position: -946px -2px;}
+.spade-K {background-position: -828px -2px;}
+.spade-A {background-position: -828px -163px;}
+
+
+/* 红心 */
+.heart-2 {background-position: -946px -324px;}
+.heart-3 {background-position: -828px -324px;}
+.heart-4 {background-position: -592px -324px;}
+.heart-5 {background-position: -474px -324px;}
+.heart-6 {background-position: -356px -324px;}
+.heart-7 {background-position: -238px -324px;}
+.heart-8 {background-position: -120px -324px;}
+.heart-9 {background-position: -2px -324px;}
+.heart-10 {background-position: -1418px -163px;}
+.heart-J {background-position: -1300px -163px;}
+.heart-Q {background-position: -1182px -163px;}
+.heart-K {background-position: -1064px -163px;}
+.heart-A {background-position: -1064px -324px;}
+
+/* 草花 */
+.club-2 {background-position:  -1064px -485px;}
+.club-3 {background-position: -946px -485px;}
+.club-4 {background-position: -828px -485px;}
+.club-5 {background-position: -710px -485px;}
+.club-6 {background-position: -592px -485px;}
+.club-7 {background-position: -356px -485px;}
+.club-8 {background-position: -238px -485px;}
+.club-9 {background-position: -120px -485px;}
+.club-10 {background-position: -2px -485px;}
+.club-J {background-position: -1418px -324px;}
+.club-Q {background-position: -1300px -324px;}
+.club-K {background-position: -1182px -324px;}
+.club-A {background-position: -1182px -485px;}
+
+/* 方块 */
+.diamond-2 {background-position: -474px -485px;}
+.diamond-3 {background-position: -710px -324px;}
+.diamond-4 {background-position: -946px -163px;}
+.diamond-5 {background-position: -1182px -2px;}
+.diamond-6 {background-position: -356px -2px;}
+.diamond-7 {background-position: -238px -2px;}
+.diamond-8 {background-position: -120px -2px;}
+.diamond-9 {background-position: -2px -2px;}
+.diamond-10 {background-position: -120px -646px;}
+.diamond-J {background-position: -2px -646px;}
+.diamond-Q {background-position: -1418px -485px;}
+.diamond-K {background-position: -1300px -485px;}
+.diamond-A {background-position: -238px -646px;}
+
+
+.bigjoker {background-position: -710px -2px;}
+.smalljoker{background-position: -592px -2px;}
+.unknown {background-position: -474px -2px;}
+
+
